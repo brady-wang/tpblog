@@ -1,0 +1,9 @@
+<?php
+
+return [
+	'app_author'=>'brady.wang',
+	'app_status'=>\think\Env::get('environment','develepment'),
+	'No_CACHE_RUNTIME'=>true,
+
+
+];

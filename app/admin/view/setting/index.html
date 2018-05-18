@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>设置</title>
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/assets/styles.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/assets/DT_bootstrap.css" rel="stylesheet" media="screen">
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="__PUBLIC__/vendors/flot/excanvas.min.js"></script><![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="__PUBLIC__/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+{include file="common/top" /}
+<div class="container-fluid">
+    <div class="row-fluid">
+        {include file="common/left" /}
+        <!--/span-->
+        <div class="span9" id="content">
+
+            <div class="row-fluid">
+                <a type="button" class="btn btn-info pull-left " href="/admin/articles/add"><i class="icon-plus"></i>新增用户</a>
+            </div>
+
+
+            <div class="row-fluid">
+                <!-- block -->
+                <div class="block">
+                    <!--面包屑开始-->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <ul class="breadcrumb">
+                                <li>
+                                    <a href="{:url('index/index')}">管理后台</a> <span class="divider">/</span>
+                                </li>
+                                <li class="active">标签管理</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!--面包屑结束-->
+                    <div class="block-content collapse in">
+                        <div class="span12">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>用户名</th>
+                                    <th>昵称</th>
+                                    <th>邮箱</th>
+                                    <th>描述</th>
+                                    <th>时间</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr >
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td>编辑/删除</td>
+                                </tr>
+                                <tr >
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                    <td>@fat</td>
+                                    <td>@fat</td>
+                                    <td>编辑/删除</td>
+                                </tr>
+                                <tr >
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>@twitter</td>
+                                    <td>@twitter</td>
+                                    <td>编辑/删除</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /block -->
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+    <hr>
+    {include file='common/footer' /}
+</div>
+<!--/.fluid-container-->
+
+<script src="__PUBLIC__/vendors/jquery-1.9.1.js"></script>
+<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/vendors/datatables/js/jquery.dataTables.min.js"></script>
+
+
+<script src="__PUBLIC__/assets/scripts.js"></script>
+<script src="__PUBLIC__/assets/DT_bootstrap.js"></script>
+<script>
+    $(function() {
+
+    });
+</script>
+</body>
+
+</html>

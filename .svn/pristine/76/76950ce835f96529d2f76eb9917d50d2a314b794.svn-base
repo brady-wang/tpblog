@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>分类管理</title>
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/assets/styles.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/assets/DT_bootstrap.css" rel="stylesheet" media="screen">
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="__PUBLIC__/vendors/flot/excanvas.min.js"></script><![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="__PUBLIC__/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+{include file="common/top" /}
+<div class="container-fluid">
+    <div class="row-fluid">
+        {include file="common/left" /}
+        <!--/span-->
+        <div class="span9" id="content">
+
+            <div class="row-fluid">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="text" style="width:174px;height:38px;" class="form-control" id="cate_name" placeholder="分类">
+                    </div>
+                    <button type="button" class="btn btn-default" id="submit_cate"><i class="icon-plus"></i>新增分类</button>
+                </div>
+
+            </div>
+
+
+            <div class="row-fluid">
+                <!-- block -->
+                <div class="block">
+                    <!--面包屑开始-->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <ul class="breadcrumb">
+                                <li>
+                                    <a href="{:url('index/index')}">管理后台</a> <span class="divider">/</span>
+                                </li>
+                                <li class="active">分类管理</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!--面包屑结束-->
+                    <div class="block-content collapse in">
+                        <div class="span12">
+                            <table class="table table-striped ">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>分类名称</th>
+                                    <th>时间</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {volist name="list" id='v' empty="<tr><td colspan='11' align='center'>暂时没有数据</td></tr>"}
+                                <tr >
+                                    <td>{$v.id}</td>
+                                    <td>{$v.cate_name}</td>
+                                    <td>{$v.create_time}</td>
+                                    <td><a class="edit_cate" data-id="{$v.id}" href="javascript:void(0);">编辑</a>/<a class="cate_del" href = "javascript:void(0);" data-id="{$v.id}">删除</a></td>
+                                </tr>
+                                {/volist}
+                                </tbody>
+                            </table>
+                            <div class="pull-right">{$list->render()}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /block -->
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+    <hr>
+{include file="common/footer" /}
+</div>
+<!--/.fluid-container-->
+
+<script src="__PUBLIC__/vendors/jquery-1.9.1.js"></script>
+<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/vendors/datatables/js/jquery.dataTables.min.js"></script>
+
+
+<script src="__PUBLIC__/assets/scripts.js"></script>
+<script src="__PUBLIC__/assets/DT_bootstrap.js"></script>
+
+
+<script>
+    $(function() {
+
+            //分类新增开始
+            $("#submit_cate").click(function(){
+                var cate_name = $.trim($("#cate_name").val());
+                if(cate_name.length <= 0){
+                    return ;
+                }
+                var data = {"cate_name":cate_name};
+
+                $.ajax({
+                    type:'post',
+                    dataType:'json',
+                    url:"{:url('cate/add')}",
+                    data:data,
+                    success:function(res){
+                        layer.msg(res.msg);
+                        if(res.success == true){
+                            var href = "{:url('cate/index')}";
+                            setTimeout("location.href='"+href+"';",2000);
+                        }
+                    }
+                })
+
+            })
+        //分类新增结束
+
+        //分类编辑开始
+        $(".edit_cate").click(function(){
+            var id = $(this).attr('data-id');
+            layer.prompt({title: '分类名称修改', shadeClose :true}, function(cate_name, index){
+                layer.close(index);
+                var data = {};
+                data.id = id;
+                data.cate_name = cate_name;
+
+                $.ajax({
+                    type:'post',
+                    dataType:'json',
+                    url:"{:url('cate/add')}",
+                    data:data,
+                    success:function(res){
+                        layer.msg(res.msg);
+                        if(res.success == true){
+                            var href = "{:url('cate/index')}";
+                            setTimeout("location.href='"+href+"';",2000);
+                        }
+                    }
+                })
+            });
+        })
+        //分类编辑结束
+
+        //分类删除开始
+        $(".cate_del").click(function(){
+            var id = $(this).attr('data-id');
+            layer.msg(id)
+
+            layer.confirm('您确定要删除？', {
+                btn: ['确定','取消'] //按钮
+            }, function(){
+                var url = "{:url('cate/del',['id'=>$v.id])}";
+                var data = {};
+                data.id = id;
+
+                $.ajax({
+                    type:'post',
+                    dataType:'json',
+                    url:"{:url('cate/del')}",
+                    data:data,
+                    success:function(res){
+                        layer.msg(res.msg);
+                        if(res.success == true){
+                            var href = "{:url('cate/index')}";
+                            setTimeout("location.href='"+href+"';",100);
+                        }
+                    }
+                })
+            }, function(){
+
+            });
+        })
+        //分类删除结束
+    });
+</script>
+</body>
+
+</html>

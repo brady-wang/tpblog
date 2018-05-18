@@ -1,0 +1,47 @@
+<?php
+namespace app\admin\controller;
+
+use think\Request;
+use app\admin\controller\MY_Controller;
+class Friend extends MY_Controller
+{
+
+
+    public function index()
+    {
+        return view();
+    }
+
+    /**
+     * @param Request $request
+     * @return \think\response\View
+     */
+    public function add(Request $request)
+    {
+        return view();
+    }
+
+    public function do_add(Request $request)
+    {
+        $param = $request->param();
+        $data = [
+            'username'=>$param['username'],
+            'password'=>$param['password'],
+            'create_time'=>date("Y-m-d H:i:s",time())
+        ];
+        $res = db('admin')->insert($data);
+        if($res){
+            echo json_encode(['success'=>true,'msg'=>'success']);
+        } else {
+            echo json_encode(['success'=>false,'msg'=>'failed']);
+        }
+
+    }
+
+    public function edit()
+    {
+        return view();
+    }
+
+
+}

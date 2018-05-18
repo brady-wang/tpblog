@@ -1,0 +1,3088 @@
+[ 2016-09-27T10:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/add
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/add [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：894.95kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 14 - 34
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:33:45+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,642.13kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:34:42+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：1,642.17kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:36:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,770.95kb] [文件加载：49]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:36:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,642.42kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:36:20+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=3
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3 [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,640.45kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 6,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:36:22+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,642.35kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,642.35kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:37:01+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=3
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,640.45kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 6,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,642.35kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:10+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,642.35kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:11+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=3
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,640.45kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 6,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,642.35kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:16+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/add.html [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：895.05kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 14 - 34
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:21+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/add.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：993.29kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '19',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 14 - 34
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:27+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/add.html [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：895.05kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 14 - 34
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,642.00kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,642.42kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:40:38+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=3
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3 [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,640.45kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 6,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:40:40+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,642.32kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:43:02+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/
+[ log ] 127.0.0.1/tp5/public/index.php/admin/ [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：889.37kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Index.php 6 - 9
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:55:11+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,641.93kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:55:53+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,642.42kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:55:54+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：1,642.35kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:56:05+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/add.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：895.05kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 14 - 34
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,771.73kb] [文件加载：49]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T10:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/4.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：855.09kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 38
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:58:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/4.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,021.54kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 38
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:58:23+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/4.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：895.81kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 38
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T10:58:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/4.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,021.75kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 38
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T11:02:59+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/4.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：1,323.56kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 41
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 4 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:04:56+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/4.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,511.95kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 41
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 4 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:05:00+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,643.20kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:05:03+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/2.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/2.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,385.70kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 41
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 2 LIMIT 1    [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:05:08+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,385.73kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 41
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:09:26+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：1,513.77kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 50
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:09:36+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：861.23kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '26',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'f',
+  'password' => 'e',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 50
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T11:09:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,387.04kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 50
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:11:48+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,387.83kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 54
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:11:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,387.98kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 54
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:12:28+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,450.46kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '38',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin123',
+  'password' => '123456',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 54
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin123',`password`='123456'  WHERE  `id` = 6      [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:12:31+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,645.01kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:13:08+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,387.63kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 54
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:13:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,514.40kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 54
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：738.97kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'if' (T_IF), expecting ']'[F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php:43]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:18:12+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：738.98kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php:45]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:18:38+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,388.51kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 58
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:19:02+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：1,469.60kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '38',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin111',
+  'password' => '123456',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 58
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin111',`password`='e10adc3949ba59abbe56e057f20f883e'  WHERE  `id` = 6      [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:19:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,645.90kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:19:15+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,388.46kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 58
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:19:45+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,469.59kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '32',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin123',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 58
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin123',`password`='e10adc3949ba59abbe56e057f20f883e'  WHERE  `id` = 6      [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,645.90kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:20:09+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,388.46kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 58
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:21:42+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,389.53kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:21:45+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,487.06kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '24',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:21:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,389.45kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:21:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,389.73kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:22:04+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：1,561.48kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '32',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin123',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin123',`password`='e10adc3949ba59abbe56e057f20f883e'  WHERE  `id` = 6      [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:22:43+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,389.45kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:22:52+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：1,599.84kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin123',
+  'password' => '111',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin123',`password`='698d51a19d8a121ce581499d7b701668'  WHERE  `id` = 6      [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:22:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：1,646.78kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:23:27+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,389.45kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:23:38+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：1,599.88kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '32',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin111',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin111',`password`='698d51a19d8a121ce581499d7b701668'  WHERE  `id` = 6      [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:23:42+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,646.78kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:24:28+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,389.45kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:24:37+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,599.84kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '32',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin123',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `username`='admin123',`password`='698d51a19d8a121ce581499d7b701668'  WHERE  `id` = 6      [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:24:40+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,646.78kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:25:58+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,389.14kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:26:04+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,486.82kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '30',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'username' => 'admin1',
+  'password' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:26:12+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,389.14kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:26:35+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,646.78kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:26:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/
+[ log ] 127.0.0.1/tp5/public/index.php/admin/ [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：889.48kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Index.php 6 - 9
+}
+
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-27T11:29:29+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,646.74kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:29:32+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,647.13kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:29:34+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=3
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,645.30kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 6,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:51:07+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=2
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2 [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,647.18kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 3,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:51:09+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html?page=1
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1 [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,647.26kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:51:12+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/lst.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,646.80kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method lst ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-09-27T11:51:15+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/admin/admin/edit/id/6.html
+[ log ] 127.0.0.1/tp5/public/index.php/admin/admin/edit/id/6.html [运行时间：0.066003s][吞吐率：15.15req/s] [内存消耗：1,389.45kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] Method [ <user> public method edit ] {
+  @@ F:\phpStudy\WWW\tp5\application\admin\controller\Admin.php 36 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin\view\admin\edit.htm [ array (
+  0 => 'admins',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `id` = 6 LIMIT 1    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

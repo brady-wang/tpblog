@@ -1,0 +1,7 @@
+<?php
+
+
+return [
+	'app_author'=>'brady.wang',
+	'app_debug'              => true,
+];

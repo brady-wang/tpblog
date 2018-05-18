@@ -1,0 +1,17 @@
+<?php
+	return [
+		'view_replace_str'  =>  [
+			'__PUBLIC__'=>'/static/admin',
+			'__COMMON__'=>'/static/common',
+			'__ROOT__' => '/',
+		],
+		'module'=>'index',
+		'per_page'=>10,
+
+		'error_code'=>[
+			'100'=>'参数错误',
+			'4000000'=>'分类名称不能为空',
+			'4000001'=>'分类新增失败',
+		],
+
+	];

@@ -1,0 +1,12 @@
+#环境配置  develepment production
+environment=develepment
+
+[database]
+hostname=120.79.172.45
+database=tpblog
+username=root
+password=aa5421010
+hostport=3306
+
+app_debug=true
+app_trace=false
