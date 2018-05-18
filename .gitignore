@@ -1,8 +1,4 @@
 .idea
-composer.lock
 *.log
-thinkphp
 .env
-runtime
-yeves.sqlite
 .svn
